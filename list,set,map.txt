@@ -1,0 +1,23 @@
+import java.util.*;  
+public class Main{  
+public static void main(String args[]){  
+ List<String> list=new ArrayList<String>();  
+ list.add("list1");  
+ list.add("list2");  
+ for(String fruit:list)  
+  System.out.println(fruit);  
+  HashSet<String> set=new HashSet();  
+           set.add("set1");    
+           set.add("set2");  
+   Iterator<String> i=set.iterator();  
+    while(i.hasNext())  
+    {  
+       System.out.println(i.next());  
+    }  
+     HashMap<Integer,String> map=new HashMap<Integer,String>();    
+   map.put(1,"map1"); 
+   map.put(2,"map2");  
+    for(Map.Entry m : map.entrySet()){    
+    System.out.println(m.getKey()+" "+m.getValue()); }   
+}  
+}  

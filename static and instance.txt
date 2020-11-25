@@ -1,0 +1,12 @@
+public class Main
+{
+    static int a=20;
+    int b=15;
+	public static void main(String[] args) {
+	    Main m1= new Main();
+	    m1.a=100;
+	    m1.b=200;
+	    Main m2= new Main();
+		System.out.println("a="+m2.a +"b=" +m2.b);
+	}
+}

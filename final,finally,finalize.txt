@@ -1,0 +1,18 @@
+class Main{  
+public void finalize(){System.out.println("finalize");}  
+public static void main(String[] args){  
+    final String s ="final";
+    System.out.println("strinal s is: "+s);
+    try{
+        int y=20;
+    }
+    catch(Exception a){
+        System.out.println(a);
+    }
+    finally{
+        System.out.println("finally");
+    }
+Main f1=new Main();  
+f1=null;  
+System.gc();  
+}}  

@@ -1,0 +1,19 @@
+class Rectangle
+{
+    int area;
+    int length;
+    int breadth;
+    Rectangle()
+    {
+        length=10;
+        breadth=15;
+        area=length * breadth;
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	Rectangle r= new Rectangle();
+	System.out.println("Area="+r.area);
+	}
+}

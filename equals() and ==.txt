@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String s1= "full";
+	    String s2="creative";
+	    if(s1==s2)
+	    {
+	        System.out.println("double equal");
+	    }
+	    System.out.println(s2.equals(s1));
+		
+	}
+}
